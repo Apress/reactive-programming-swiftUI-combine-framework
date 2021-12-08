@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw' executeOnSourceChanges='true'>
+    <pages>
+        <page name='VHZStack'/>
+        <page name='UserInput'/>
+        <page name='Animation'/>
+        <page name='Grids'/>
+        <page name='Alerts'/>
+        <page name='Map'/>
+        <page name='Layout Views'/>
+        <page name='Lists &amp; Forms'/>
+        <page name='AsyncImageURL'/>
+        <page name='TaskView'/>
+        <page name='Badge'/>
+        <page name='MarkDownText'/>
+        <page name='Swipe'/>
+        <page name='search'/>
+        <page name='Material'/>
+    </pages>
+</playground>
