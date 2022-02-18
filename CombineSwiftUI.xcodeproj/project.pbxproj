@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		814E0F89270AA9610040E0A3 /* CombineSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0F88270AA9610040E0A3 /* CombineSwiftUIApp.swift */; };
+		814E0F8B270AA9610040E0A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0F8A270AA9610040E0A3 /* ContentView.swift */; };
+		814E0F8D270AA9620040E0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814E0F8C270AA9620040E0A3 /* Assets.xcassets */; };
+		814E0F90270AA9620040E0A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814E0F8F270AA9620040E0A3 /* Preview Assets.xcassets */; };
+		814E0F9F270AAA460040E0A3 /* RentalUris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0F98270AAA460040E0A3 /* RentalUris.swift */; };
+		814E0FA0270AAA460040E0A3 /* StationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0F99270AAA460040E0A3 /* StationType.swift */; };
+		814E0FA1270AAA460040E0A3 /* StationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0F9A270AAA460040E0A3 /* StationInfo.swift */; };
+		814E0FA2270AAA460040E0A3 /* RentalMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0F9B270AAA460040E0A3 /* RentalMethod.swift */; };
+		814E0FA3270AAA460040E0A3 /* JSONSchemaSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0F9C270AAA460040E0A3 /* JSONSchemaSupport.swift */; };
+		814E0FA4270AAA460040E0A3 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0F9D270AAA460040E0A3 /* Station.swift */; };
+		814E0FA5270AAA460040E0A3 /* StationDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0F9E270AAA460040E0A3 /* StationDataClass.swift */; };
+		814E0FAA270AAA7C0040E0A3 /* SystemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0FA7270AAA7C0040E0A3 /* SystemInfo.swift */; };
+		814E0FAC270AAA7C0040E0A3 /* SysInfoDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0FA9270AAA7C0040E0A3 /* SysInfoDataClass.swift */; };
+		814E0FAE270AAC730040E0A3 /* SharedBikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0FAD270AAC730040E0A3 /* SharedBikeService.swift */; };
+		814E0FB1270AAEE20040E0A3 /* SharedBikeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814E0FB0270AAEE20040E0A3 /* SharedBikeViewModel.swift */; };
+		8159C831270BFCC30020CB42 /* BikeStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159C830270BFCC30020CB42 /* BikeStationView.swift */; };
+		8159C833270C041B0020CB42 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159C832270C041B0020CB42 /* MainView.swift */; };
+		8159C835270C05110020CB42 /* GikeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159C834270C05110020CB42 /* GikeGridView.swift */; };
+		81ED6A66270EAC4100F0F5B5 /* BikeMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED6A65270EAC4100F0F5B5 /* BikeMapView.swift */; };
+		81ED6A68270EAFED00F0F5B5 /* BikeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED6A67270EAFED00F0F5B5 /* BikeListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		814E0F85270AA9610040E0A3 /* CombineSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		814E0F88270AA9610040E0A3 /* CombineSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineSwiftUIApp.swift; sourceTree = "<group>"; };
+		814E0F8A270AA9610040E0A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		814E0F8C270AA9620040E0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		814E0F8F270AA9620040E0A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		814E0F98270AAA460040E0A3 /* RentalUris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentalUris.swift; sourceTree = "<group>"; };
+		814E0F99270AAA460040E0A3 /* StationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationType.swift; sourceTree = "<group>"; };
+		814E0F9A270AAA460040E0A3 /* StationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationInfo.swift; sourceTree = "<group>"; };
+		814E0F9B270AAA460040E0A3 /* RentalMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentalMethod.swift; sourceTree = "<group>"; };
+		814E0F9C270AAA460040E0A3 /* JSONSchemaSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSchemaSupport.swift; sourceTree = "<group>"; };
+		814E0F9D270AAA460040E0A3 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		814E0F9E270AAA460040E0A3 /* StationDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationDataClass.swift; sourceTree = "<group>"; };
+		814E0FA7270AAA7C0040E0A3 /* SystemInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemInfo.swift; sourceTree = "<group>"; };
+		814E0FA9270AAA7C0040E0A3 /* SysInfoDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SysInfoDataClass.swift; sourceTree = "<group>"; };
+		814E0FAD270AAC730040E0A3 /* SharedBikeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedBikeService.swift; sourceTree = "<group>"; };
+		814E0FB0270AAEE20040E0A3 /* SharedBikeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedBikeViewModel.swift; sourceTree = "<group>"; };
+		8159C830270BFCC30020CB42 /* BikeStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationView.swift; sourceTree = "<group>"; };
+		8159C832270C041B0020CB42 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8159C834270C05110020CB42 /* GikeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GikeGridView.swift; sourceTree = "<group>"; };
+		81ED6A65270EAC4100F0F5B5 /* BikeMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeMapView.swift; sourceTree = "<group>"; };
+		81ED6A67270EAFED00F0F5B5 /* BikeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		814E0F82270AA9610040E0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		814E0F7C270AA9610040E0A3 = {
+			isa = PBXGroup;
+			children = (
+				814E0F87270AA9610040E0A3 /* CombineSwiftUI */,
+				814E0F86270AA9610040E0A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		814E0F86270AA9610040E0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				814E0F85270AA9610040E0A3 /* CombineSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		814E0F87270AA9610040E0A3 /* CombineSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				8159C82F270BFBE30020CB42 /* View */,
+				814E0FAF270AAEA80040E0A3 /* Model */,
+				814E0F96270AA9AB0040E0A3 /* SharedBikeService */,
+				814E0F88270AA9610040E0A3 /* CombineSwiftUIApp.swift */,
+				814E0F8A270AA9610040E0A3 /* ContentView.swift */,
+				814E0F8C270AA9620040E0A3 /* Assets.xcassets */,
+				814E0F8E270AA9620040E0A3 /* Preview Content */,
+			);
+			path = CombineSwiftUI;
+			sourceTree = "<group>";
+		};
+		814E0F8E270AA9620040E0A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				814E0F8F270AA9620040E0A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		814E0F96270AA9AB0040E0A3 /* SharedBikeService */ = {
+			isa = PBXGroup;
+			children = (
+				814E0FA6270AAA7C0040E0A3 /* SystemInfo */,
+				814E0F97270AAA460040E0A3 /* StationInfo */,
+				814E0FAD270AAC730040E0A3 /* SharedBikeService.swift */,
+			);
+			path = SharedBikeService;
+			sourceTree = "<group>";
+		};
+		814E0F97270AAA460040E0A3 /* StationInfo */ = {
+			isa = PBXGroup;
+			children = (
+				814E0F98270AAA460040E0A3 /* RentalUris.swift */,
+				814E0F99270AAA460040E0A3 /* StationType.swift */,
+				814E0F9A270AAA460040E0A3 /* StationInfo.swift */,
+				814E0F9B270AAA460040E0A3 /* RentalMethod.swift */,
+				814E0F9C270AAA460040E0A3 /* JSONSchemaSupport.swift */,
+				814E0F9D270AAA460040E0A3 /* Station.swift */,
+				814E0F9E270AAA460040E0A3 /* StationDataClass.swift */,
+			);
+			path = StationInfo;
+			sourceTree = "<group>";
+		};
+		814E0FA6270AAA7C0040E0A3 /* SystemInfo */ = {
+			isa = PBXGroup;
+			children = (
+				814E0FA7270AAA7C0040E0A3 /* SystemInfo.swift */,
+				814E0FA9270AAA7C0040E0A3 /* SysInfoDataClass.swift */,
+			);
+			path = SystemInfo;
+			sourceTree = "<group>";
+		};
+		814E0FAF270AAEA80040E0A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				814E0FB0270AAEE20040E0A3 /* SharedBikeViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8159C82F270BFBE30020CB42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81ED6A64270EAC0800F0F5B5 /* BikeView */,
+				8159C832270C041B0020CB42 /* MainView.swift */,
+				8159C834270C05110020CB42 /* GikeGridView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81ED6A64270EAC0800F0F5B5 /* BikeView */ = {
+			isa = PBXGroup;
+			children = (
+				8159C830270BFCC30020CB42 /* BikeStationView.swift */,
+				81ED6A65270EAC4100F0F5B5 /* BikeMapView.swift */,
+				81ED6A67270EAFED00F0F5B5 /* BikeListView.swift */,
+			);
+			path = BikeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		814E0F84270AA9610040E0A3 /* CombineSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 814E0F93270AA9620040E0A3 /* Build configuration list for PBXNativeTarget "CombineSwiftUI" */;
+			buildPhases = (
+				814E0F81270AA9610040E0A3 /* Sources */,
+				814E0F82270AA9610040E0A3 /* Frameworks */,
+				814E0F83270AA9610040E0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CombineSwiftUI;
+			productName = CombineSwiftUI;
+			productReference = 814E0F85270AA9610040E0A3 /* CombineSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		814E0F7D270AA9610040E0A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					814E0F84270AA9610040E0A3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 814E0F80270AA9610040E0A3 /* Build configuration list for PBXProject "CombineSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 814E0F7C270AA9610040E0A3;
+			productRefGroup = 814E0F86270AA9610040E0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				814E0F84270AA9610040E0A3 /* CombineSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		814E0F83270AA9610040E0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814E0F90270AA9620040E0A3 /* Preview Assets.xcassets in Resources */,
+				814E0F8D270AA9620040E0A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		814E0F81270AA9610040E0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814E0FA0270AAA460040E0A3 /* StationType.swift in Sources */,
+				814E0FAE270AAC730040E0A3 /* SharedBikeService.swift in Sources */,
+				81ED6A66270EAC4100F0F5B5 /* BikeMapView.swift in Sources */,
+				814E0FA1270AAA460040E0A3 /* StationInfo.swift in Sources */,
+				814E0FA4270AAA460040E0A3 /* Station.swift in Sources */,
+				814E0FA2270AAA460040E0A3 /* RentalMethod.swift in Sources */,
+				814E0F8B270AA9610040E0A3 /* ContentView.swift in Sources */,
+				814E0FAC270AAA7C0040E0A3 /* SysInfoDataClass.swift in Sources */,
+				814E0FB1270AAEE20040E0A3 /* SharedBikeViewModel.swift in Sources */,
+				81ED6A68270EAFED00F0F5B5 /* BikeListView.swift in Sources */,
+				814E0F9F270AAA460040E0A3 /* RentalUris.swift in Sources */,
+				814E0FA5270AAA460040E0A3 /* StationDataClass.swift in Sources */,
+				814E0FA3270AAA460040E0A3 /* JSONSchemaSupport.swift in Sources */,
+				814E0FAA270AAA7C0040E0A3 /* SystemInfo.swift in Sources */,
+				8159C831270BFCC30020CB42 /* BikeStationView.swift in Sources */,
+				8159C833270C041B0020CB42 /* MainView.swift in Sources */,
+				8159C835270C05110020CB42 /* GikeGridView.swift in Sources */,
+				814E0F89270AA9610040E0A3 /* CombineSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		814E0F91270AA9620040E0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		814E0F92270AA9620040E0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		814E0F94270AA9620040E0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CombineSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F6FBJA4J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoewave.CombineSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		814E0F95270AA9620040E0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CombineSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F6FBJA4J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoewave.CombineSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		814E0F80270AA9610040E0A3 /* Build configuration list for PBXProject "CombineSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814E0F91270AA9620040E0A3 /* Debug */,
+				814E0F92270AA9620040E0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		814E0F93270AA9620040E0A3 /* Build configuration list for PBXNativeTarget "CombineSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814E0F94270AA9620040E0A3 /* Debug */,
+				814E0F95270AA9620040E0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 814E0F7D270AA9610040E0A3 /* Project object */;
+}
