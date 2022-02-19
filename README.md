@@ -1,6 +1,6 @@
 # Apress Source Code
 
-This repository accompanies [*Reactive Programming with SwiftUI and Combine Framework*](https://link.springer.com/book/10.1007/%isbn%) by Siamak Ashafi (Apress, 2021).
+This repository accompanies [*Reactive Programming with SwiftUI and Combine Framework*](https://link.springer.com/video/10.1007/978-1-4842-8129-1) by Siamak Ashafi (Apress, 2021).
 
 [comment]: #cover
 ![Cover image](%isbn%.jpg)
